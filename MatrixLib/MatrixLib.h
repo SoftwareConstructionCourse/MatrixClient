@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <vector>
 
-using namespace System;
+//using namespace System;
 using namespace std;
 
 namespace MatrixLib {
@@ -15,7 +15,7 @@ namespace MatrixLib {
 
 	public ref class MatrixTranspose
 	{
-		vector<vector<int>> tranpose(vector<vector<int>> a, vector<vector<int>> b);
+		vector<vector<int>> transpose(vector<vector<int>> a);
 	};
 
 
