@@ -1,13 +1,27 @@
 // MatrixLib.h
 
-#pragma once
+#include <cstdlib>
+#include <vector>
 
-using namespace System;
+//using namespace System;
+using namespace std;
 
 namespace MatrixLib {
 
-	public ref class Class1
+	public ref class MatrixMultiplication
 	{
-		// TODO: Add your methods for this class here.
+		vector<vector<int>> mutiply(vector<vector<int>> a, vector<vector<int>> b);
+	}; 
+
+	public ref class MatrixTranspose
+	{
+		vector<vector<int>> transpose(vector<vector<int>> a);
 	};
+
+
+	public ref class MatrixAddSub
+	{
+		vector<vector<int>> add(vector<vector<int>> a, vector<vector<int>> b, bool add);
+	};
+	
 }
